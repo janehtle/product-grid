@@ -1,6 +1,8 @@
 body {
     background-color: aliceblue;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -9,19 +11,18 @@ img {
 }
 
 section {
-    display: flex;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 370px);
+    grid-template-rows: repeat(2, 400px);
+    grid-gap: 20px 20px;
 }
 
 .product {
     border: 1px solid lightgrey;
-    height: 400px;
-    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px;
     background-color: white;
 }
 
@@ -31,15 +32,10 @@ h4, .description {
 
 .description {
     color: rgb(85, 84, 84);
-    margin: 0;
-}
-
-h4 {
-    margin-bottom: 5px;
 }
 
 .price {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
 }
 
