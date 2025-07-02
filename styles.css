@@ -49,7 +49,7 @@ button {
     border-radius: 50px;
     border: none;
     background-color: rgb(255, 216, 20);
-    padding: 5px;
+    padding: 8px;
 }
 
 button:hover {
