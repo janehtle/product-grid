@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+section {
+    display: flex;
+    margin: 10px;
+}
+
+.product {
+    border: 1px solid lightgrey;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+}
+
+h4, .description {
+    font-size: 16px;
+}
+
+.description {
+    color: rgb(85, 84, 84);
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.bio {
+    width: 300px;
+}
+
+button {
+    width: 150px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(247, 207, 5);
+}
